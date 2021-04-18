@@ -1,0 +1,557 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+#wrapper{
+    margin: auto;
+    width: 100%;
+}
+
+.header {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background-image: url("Images/bgheader.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#nav{
+    margin: auto;
+    padding: 2px;
+    height: 50px;
+    font-family: Segoe UI;
+    z-index: 2;
+}
+
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    left: 61%;
+    top: 0;
+}
+#nav li{
+    float: right;
+}
+
+#nav li a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    /*color: rgb(211, 155, 52);*/
+    color: rgb(255, 255, 255);
+}
+
+#nav li a:hover{
+    background: rgba(1, 1, 1, 0.3);
+}
+
+.name{
+    padding-top: 8%;
+    padding-bottom: 17%;
+    color: white;
+    font-family: Segoe UI;
+}
+
+#nhead{
+    padding-top: 4px;
+    font-size: 40px;
+}
+
+#mhead{
+    font-size: 20px;
+}
+
+#profile{
+    border-radius: 100%;
+    border: white 2px solid;
+    height: 200px;
+    width: 200px;
+}
+
+.about {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: rgb(238, 238, 238);
+    font-family: Verdana;
+    padding-top: 25px;
+    font-size: 34px;
+    color: rgb(54, 54, 54);
+}
+
+#tentang{
+    margin: 10px 9% 5%;
+    padding: 10px 10px;
+    display: inline-block;
+    width: 80%;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#konten{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#biodata{
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+#biodata td{
+    vertical-align: top;
+}
+
+#barpd{
+    width: 3px;
+    height: 50px;
+    background: rgb(255, 92, 92);
+    margin: 5px auto;
+}
+
+#tahun{
+    font-size: 18px;
+    color: rgb(64, 107, 224);
+}
+
+#rwtp{
+    font-size: 20px;
+    text-align: center;
+}
+
+.skill {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background-image: url("Images/bgskill.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Verdana;
+    padding-top: 25px;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.skillbar{
+    display: inline-block;
+    margin: 5% 3% 5%;
+    padding: 10px 5px;
+    width: 42%;
+    height: 350px;
+}
+
+
+.bar{
+    display: block;
+    background: white;
+    height: 10px;
+    border: 3px solid rgba(white);
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(221, 102, 102);
+}
+
+.bar span{
+    height: 10px;
+    float: left;
+    background: rgb(221, 102, 102);
+}
+
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+
+.css{
+    width: 80%;
+    animation: css 2s;
+}
+
+.java{
+    width: 80%;
+    animation: java 2s;
+}
+
+.python{
+    width: 70%;
+    animation: python 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+    
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%
+    }
+    
+}
+
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%
+    }
+    
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%
+    }
+    
+}
+
+.barb{
+    display: block;
+    background: white;
+    height: 10px;
+    border: 3px solid rgba(white);
+    border-radius: 3px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(64, 107, 224);
+}
+
+.barb span{
+    height: 10px;
+    float: left;
+    background: rgb(64, 107, 224);
+}
+
+.photoshop{
+    width: 85%;
+    animation: photoshop 2s;
+}
+
+.lightroom{
+    width: 95%;
+    animation: lightroom 2s;
+}
+
+.premiere{
+    width: 90%;
+    animation: premiere 2s;
+}
+
+.illustrator{
+    width: 70%;
+    animation: illustrator 2s;
+}
+
+@keyframes photoshop {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+    
+}
+
+@keyframes lightroom {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%
+    }
+    
+}
+
+@keyframes premiere {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%
+    }
+    
+}
+
+@keyframes illustrator {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%
+    }
+    
+}
+
+.galeri {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: rgb(238, 238, 238);
+    font-family: Verdana;
+    padding-top: 25px;
+    font-size: 34px;
+    color: rgb(54, 54, 54);
+}
+
+.gambar{
+    margin: 15px 1% 5%;
+    padding: 0px 0px 15px 0;
+    display: inline-block;
+    width: 30%;
+    height: 450px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    font-size: 15px;
+}
+
+#gambar{
+    width: 100%;
+}
+
+.contact {
+    position: relative; 
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: rgb(95, 135, 245);
+    font-family: Verdana;
+    padding-top: 25px;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.form{
+    margin: 3% 31% 5%;
+    padding: 20px 30px;
+    display: inline-block;
+    color: rgb(49, 49, 49);
+    width: 30%;
+    height: 400px;
+    border-radius: 5px;
+    background: white;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#inputan{
+    width: 98%;
+    height: 25px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(49, 49, 49) ;
+}
+
+#inputan:active{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(255, 90, 90)
+    
+}
+
+#inputan:focus{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(255, 90, 90)
+}
+
+#inputanp{
+    width: 98%;
+    height: 40px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(49, 49, 49) ;
+}
+
+#inputanp:active{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(255, 90, 90)
+    
+}
+
+#inputanp:focus{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid rgb(255, 90, 90)
+}
+
+#submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+    background: rgb(255, 90, 90);
+    font-family: verdana;
+    font-size: 20px;
+    color: white;
+}
+
+#submit:hover{
+    background: rgb(255, 145, 145);
+}
+
+#footer{
+    background: rgb(49, 49, 49);
+    height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    padding: 10px;
+    font-family: segoe ui;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #nav li{
+        float: right;
+    }
+
+    #nav ul{
+        padding: auto;
+        position: absolute;
+        left: 0%;
+        right: 15%;
+    }
+
+    #tentang{
+        margin: 10px 8% 10%;
+        padding: 10px 10px;
+    }
+
+    .skill{
+        text-align: center;
+    }
+
+    .gambar{
+        width: 43%;
+        height: 380px;
+        margin: 15px 3% 5%;
+    }
+
+    .form{
+        margin: 10px 15% 5%;
+        width: 60%;
+    }
+}
+
+/*smartphone*/
+@media only screen and (max-width: 375px){
+    #nav{
+        height: 360px;
+    }
+
+    #nav li{
+        float: none;
+    }
+
+    #nav ul{
+        left: 0;
+        padding: auto;
+        background: rgba(1, 1, 1, 0.658);
+        position: absolute;
+        left: 0%;
+        right: 0;
+    }
+    
+    .header{
+        width: 100%;
+        height: 100%;
+    }
+
+    .about{
+        font-size: 30px;
+    }
+
+    #tentang{
+        margin: 10px 7% 10%;
+        padding: 10px 10px;
+    }
+
+    #konten{
+        font-size: 16px;
+    }
+
+    #biodata{
+        font-size: 16px;
+    }
+
+    #rwtp{
+        font-size: 18px;
+    }
+
+    #tahun{
+        font-size: 15px;
+    }
+
+    .skill{
+        text-align: center;
+    }
+
+    .skillbar{
+        width: 70%;
+        font-size: 25px;
+    }
+    
+    .gambar{
+        width: 80%;
+        height: 400px;
+        margin: 10px 10% 5%;
+    }
+
+    .form{
+        margin: 10px 10% 5%;
+        width: 60%;
+    }
+
+    #footer{
+        height: 51px;
+    }
+}
